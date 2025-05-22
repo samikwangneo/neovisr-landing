@@ -1,4 +1,3 @@
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white py-16">
@@ -6,10 +5,10 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="col-span-2">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
+              <div className="w-8 h-8 bg-gradient-to-br from-red-500 to-red-700 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">N</span>
               </div>
-              <span className="text-2xl font-bold text-red-500">
+              <span className="text-2xl font-bold bg-gradient-to-r from-red-500 to-red-400 bg-clip-text text-transparent">
                 NeoVisr
               </span>
             </div>
@@ -18,13 +17,17 @@ const Footer = () => {
               Built by students, for students, to make academic planning effortless and efficient.
             </p>
             <div className="flex items-center space-x-4 mb-6">
-              <button className="flex items-center gap-2 px-6 py-3 bg-black border border-gray-700 text-white rounded-xl text-base font-medium hover:bg-gray-900 transition-colors">
-                <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-apple">
-                  <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z" />
-                  <path d="M10 2c1 .5 2 2 2 5" />
-                </svg>
-                <span>iOS App</span>
-              </button>
+              <a 
+                href="#" 
+                className="group relative transform transition-all duration-300 hover:scale-105"
+              >
+                <img 
+                  src="/app_store.png" 
+                  alt="Download on the App Store" 
+                  className="h-12 relative z-10 rounded-xl"
+                />
+                <div className="absolute -inset-1 bg-gradient-to-r from-red-500/10 to-red-600/10 rounded-xl blur-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
+              </a>
             </div>
             <div className="flex space-x-4">
               <button className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-red-600 transition-colors">
