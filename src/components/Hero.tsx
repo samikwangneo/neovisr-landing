@@ -38,7 +38,7 @@ const Hero = () => {
                     NeoVisr Chat Interface
                   </div>
                 </div>
-                <div className="bg-white rounded-lg p-4 space-y-4">
+                <div className="bg-gradient-to-r from-gray-50 to-white rounded-lg p-4 space-y-4">
                   <div className="flex justify-start">
                     <div className="bg-red-100 text-red-800 px-4 py-2 rounded-2xl max-w-xs">
                       Hi! I need help planning my course schedule for next semester. What CS courses should I take?

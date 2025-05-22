@@ -13,31 +13,31 @@ const Features = () => {
       icon: <Calendar className="w-8 h-8" />,
       title: "Automated Scheduling",
       description: "Book advisor appointments directly through TerpEngage with our automated scheduling system. No more manual booking hassles.",
-      color: "from-red-500 to-red-600"
+      color: "from-orange-500 to-orange-600"
     },
     {
       icon: <Settings className="w-8 h-8" />,
       title: "Degree Audit Automation",
       description: "Automatically run degree audits through UMD's uAchieve system with secure 2FA authentication support.",
-      color: "from-red-500 to-red-600"
+      color: "from-green-500 to-green-600"
     },
     {
       icon: <Search className="w-8 h-8" />,
       title: "PDF Document Search",
       description: "Instantly search through comprehensive UMD CS advising documents for accurate and up-to-date information.",
-      color: "from-red-500 to-red-600"
+      color: "from-blue-500 to-blue-600"
     },
     {
       icon: <User className="w-8 h-8" />,
       title: "Personalized Experience",
       description: "Enjoy persistent chat history, custom profiles, and adaptive theming that learns your preferences.",
-      color: "from-red-500 to-red-600"
+      color: "from-purple-500 to-purple-600"
     },
     {
       icon: <Phone className="w-8 h-8" />,
       title: "Mobile-First Design",
       description: "Access your academic advisor anywhere with our React Native mobile app featuring light/dark mode support.",
-      color: "from-red-500 to-red-600"
+      color: "from-pink-500 to-pink-600"
     }
   ];
 

@@ -11,19 +11,19 @@ const Team = () => {
       name: "Rivan Parikh",
       role: "Backend Engineer",
       description: "System architecture and automation expert",
-      gradient: "from-red-500 to-red-600"
+      gradient: "from-purple-500 to-purple-600"
     },
     {
       name: "Eswar Karavadi",
       role: "Mobile Developer",
       description: "React Native and user experience specialist",
-      gradient: "from-red-500 to-red-600"
+      gradient: "from-blue-500 to-blue-600"
     },
     {
       name: "Aymaan Hussain",
       role: "AI Researcher",
       description: "Machine learning and natural language processing",
-      gradient: "from-red-500 to-red-600"
+      gradient: "from-green-500 to-green-600"
     }
   ];
 

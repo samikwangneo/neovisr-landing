@@ -21,9 +21,9 @@ const CTA = () => {
           
           <div className="flex justify-center mb-12">
             <a href="#" className="flex items-center gap-2 px-10 py-5 bg-black text-white rounded-xl text-lg font-bold hover:bg-gray-900 hover:shadow-2xl hover:scale-105 transition-all duration-300">
-              <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-apple">
-                <path d="M12 20.94c1.5 0 2.75 1.06 4 1.06 3 0 6-8 6-12.22A4.91 4.91 0 0 0 17 5c-2.22 0-4 1.44-5 2-1-.56-2.78-2-5-2a4.9 4.9 0 0 0-5 4.78C2 14 5 22 8 22c1.25 0 2.5-1.06 4-1.06Z" />
-                <path d="M10 2c1 .5 2 2 2 5" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2z"/>
+                <path d="M16.5 8.5L12 13l4.5 4.5M7.5 8.5L12 13l-4.5 4.5"/>
               </svg>
               <span>Download for iOS</span>
             </a>
