@@ -7,37 +7,37 @@ const Features = () => {
       icon: <Book className="w-8 h-8" />,
       title: "Smart Course Guidance",
       description: "Get instant answers about CS degree requirements, prerequisites, and course planning from our AI trained on official UMD documents.",
-      color: "from-blue-500 to-blue-600"
+      color: "from-red-500 to-red-600"
     },
     {
       icon: <Calendar className="w-8 h-8" />,
       title: "Automated Scheduling",
       description: "Book advisor appointments directly through TerpEngage with our automated scheduling system. No more manual booking hassles.",
-      color: "from-purple-500 to-purple-600"
+      color: "from-red-500 to-red-600"
     },
     {
       icon: <Settings className="w-8 h-8" />,
       title: "Degree Audit Automation",
       description: "Automatically run degree audits through UMD's uAchieve system with secure 2FA authentication support.",
-      color: "from-green-500 to-green-600"
+      color: "from-red-500 to-red-600"
     },
     {
       icon: <Search className="w-8 h-8" />,
       title: "PDF Document Search",
       description: "Instantly search through comprehensive UMD CS advising documents for accurate and up-to-date information.",
-      color: "from-orange-500 to-orange-600"
+      color: "from-red-500 to-red-600"
     },
     {
       icon: <User className="w-8 h-8" />,
       title: "Personalized Experience",
       description: "Enjoy persistent chat history, custom profiles, and adaptive theming that learns your preferences.",
-      color: "from-pink-500 to-pink-600"
+      color: "from-red-500 to-red-600"
     },
     {
       icon: <Phone className="w-8 h-8" />,
       title: "Mobile-First Design",
       description: "Access your academic advisor anywhere with our React Native mobile app featuring light/dark mode support.",
-      color: "from-indigo-500 to-indigo-600"
+      color: "from-red-500 to-red-600"
     }
   ];
 
@@ -45,7 +45,7 @@ const Features = () => {
     <section id="features" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
             Powerful Features
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">

@@ -5,25 +5,25 @@ const Team = () => {
       name: "Samik Wangneo",
       role: "Lead Developer",
       description: "Full-stack development and AI integration specialist",
-      gradient: "from-blue-500 to-purple-600"
+      gradient: "from-red-500 to-red-600"
     },
     {
       name: "Rivan Parikh",
       role: "Backend Engineer",
       description: "System architecture and automation expert",
-      gradient: "from-purple-500 to-pink-600"
+      gradient: "from-red-500 to-red-600"
     },
     {
       name: "Eswar Karavadi",
       role: "Mobile Developer",
       description: "React Native and user experience specialist",
-      gradient: "from-pink-500 to-orange-600"
+      gradient: "from-red-500 to-red-600"
     },
     {
       name: "Aymaan Hussain",
       role: "AI Researcher",
       description: "Machine learning and natural language processing",
-      gradient: "from-orange-500 to-yellow-600"
+      gradient: "from-red-500 to-red-600"
     }
   ];
 
@@ -31,7 +31,7 @@ const Team = () => {
     <section id="team" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-red-600 to-red-700 bg-clip-text text-transparent">
             Meet Our Team
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -54,7 +54,7 @@ const Team = () => {
               <h3 className="text-xl font-bold mb-2 text-gray-900">
                 {member.name}
               </h3>
-              <p className="text-blue-600 font-semibold mb-3">
+              <p className="text-red-600 font-semibold mb-3">
                 {member.role}
               </p>
               <p className="text-gray-600 text-sm leading-relaxed">
@@ -65,10 +65,10 @@ const Team = () => {
         </div>
         
         <div className="text-center mt-12">
-          <div className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-blue-50 to-purple-50 rounded-full border border-blue-200">
-            <span className="text-blue-600 font-semibold">University of Maryland</span>
+          <div className="inline-flex items-center space-x-2 px-6 py-3 bg-gradient-to-r from-red-50 to-pink-50 rounded-full border border-red-200">
+            <span className="text-red-600 font-semibold">University of Maryland</span>
             <span className="text-gray-400">•</span>
-            <span className="text-purple-600 font-semibold">Computer Science</span>
+            <span className="text-red-600 font-semibold">Computer Science</span>
           </div>
         </div>
       </div>
